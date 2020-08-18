@@ -1,0 +1,23 @@
+{
+  "parserOptions": {
+    "sourceType": "module"
+  },
+  "env": {
+    "es6": true,
+    "node": true
+  },
+  "plugins": [
+    "import"
+  ],
+  "rules": {
+    "import/no-unresolved": "error"
+  },
+  "overrides": [
+    {
+      "files": ["**/*.spec.js", "**/*.spec.jsx", "**/__tests__/*"],
+      "env": {
+        "jest": true
+      }
+    }
+  ]
+}
