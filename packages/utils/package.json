@@ -1,0 +1,7 @@
+{
+  "name": "@my-org/utils",
+  "version": "1.0.0",
+  "exports": {
+    "./math": "./dist/math.js"
+  }
+}
